@@ -38,7 +38,8 @@ class _MyHomePageState extends State<MyHomePage> {
         selectedAssets:images,
         enableCamera: true, 
         materialOptions: MaterialOptions(
-          actionBarColor: 'blue'
+          actionBarColor: 'green',
+          selectCircleStrokeColor: 'green'
         )
       );
       setState(() {

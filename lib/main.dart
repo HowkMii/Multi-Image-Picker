@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:multi_image_picker2/multi_image_picker2.dart';
 
 void main() {
   runApp(MyApp());
@@ -35,7 +36,7 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
       body: Center(
         child: Column(
-          
+
         ), // This trailing comma makes auto-formatting nicer for build methods.
       ),
     );

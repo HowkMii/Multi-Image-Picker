@@ -37,11 +37,15 @@ class _MyHomePageState extends State<MyHomePage> {
         maxImages: 300,
         selectedAssets:images,
         enableCamera: true, 
+        materialOptions: MaterialOptions(
+          actionBarColor: 'blue'
+        )
       );
       setState(() {
               images = resultList;
             });
     }catch(e){
+      print(e);
 
     }
   }
